@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+	  <LangVersion>10.0</LangVersion>
+	  <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DDDMart.Application\DDDMart.Application.csproj" />
+    <ProjectReference Include="..\DDDMart.Ordering.Core\DDDMart.Ordering.Core.csproj" />
+  </ItemGroup>
+
+</Project>

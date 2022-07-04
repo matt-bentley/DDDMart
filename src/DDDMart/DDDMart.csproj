@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Catalogue\DDDMart.Catalogue.Application\DDDMart.Catalogue.Application.csproj" />
+    <ProjectReference Include="..\Catalogue\DDDMart.Catalogue.Infrastructure\DDDMart.Catalogue.Infrastructure.csproj" />
+    <ProjectReference Include="..\Ordering\DDDMart.Ordering.Application\DDDMart.Ordering.Application.csproj" />
+    <ProjectReference Include="..\Ordering\DDDMart.Ordering.Infrastructure\DDDMart.Ordering.Infrastructure.csproj" />
+    <ProjectReference Include="..\Payments\DDDMart.Payments.Application\DDDMart.Payments.Application.csproj" />
+    <ProjectReference Include="..\Payments\DDDMart.Payments.Infrastructure\DDDMart.Payments.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
