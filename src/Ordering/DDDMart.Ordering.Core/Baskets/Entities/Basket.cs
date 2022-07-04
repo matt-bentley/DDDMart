@@ -7,10 +7,15 @@ namespace DDDMart.Ordering.Core.Baskets.Entities
 {
     public class Basket : AggregateRoot
     {
-        public Basket(Guid customerId)
+        private Basket(Guid customerId, bool checkedOut)
         {
             CustomerId = customerId;
-            CheckedOut = false;
+            CheckedOut = checkedOut;
+        }
+
+        public static Basket Create(Guid customerId)
+        {
+            return new Basket(customerId, false);
         }
 
         public Guid CustomerId { get; private set; }

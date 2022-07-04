@@ -60,7 +60,7 @@ namespace DDDMart
             _logger.LogInformation("Generating Customer Basket for: {id}", customerId);
             var products = await _productsRepository.GetAll().ToListAsync();
             
-            var basket = new Basket(customerId);
+            var basket = Basket.Create(customerId);
             AddProductToBasket(basket, products[0]);
             AddProductToBasket(basket, products[1]);
             AddProductToBasket(basket, products[2]);

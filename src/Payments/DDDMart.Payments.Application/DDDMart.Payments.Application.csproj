@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DDDMart.Application\DDDMart.Application.csproj" />
+    <ProjectReference Include="..\..\Common\DDDMart.Application\DDDMart.Application.csproj" />
     <ProjectReference Include="..\DDDMart.Payments.Core\DDDMart.Payments.Core.csproj" />
   </ItemGroup>
 

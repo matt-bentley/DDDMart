@@ -13,7 +13,7 @@
 	</ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\DDDMart.Infrastructure\DDDMart.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Common\DDDMart.Infrastructure\DDDMart.Infrastructure.csproj" />
     <ProjectReference Include="..\DDDMart.Ordering.Core\DDDMart.Ordering.Core.csproj" />
   </ItemGroup>
 

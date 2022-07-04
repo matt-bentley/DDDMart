@@ -18,29 +18,37 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{F3
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{E750A5A2-FDAF-4898-B2BF-47B37C78D90D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Catalogue.Core", "src\Catalogue\DDDMart.Catalogue.Core\DDDMart.Catalogue.Core.csproj", "{4540E389-ACD7-4DFC-A441-B12356FFF719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Catalogue.Core", "src\Catalogue\DDDMart.Catalogue.Core\DDDMart.Catalogue.Core.csproj", "{4540E389-ACD7-4DFC-A441-B12356FFF719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.SharedKernel", "src\DDDMart.SharedKernel\DDDMart.SharedKernel.csproj", "{E1BA0F62-779E-4F23-8650-E1FD3A65EAB2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.SharedKernel", "src\Common\DDDMart.SharedKernel\DDDMart.SharedKernel.csproj", "{E1BA0F62-779E-4F23-8650-E1FD3A65EAB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Catalogue.Infrastructure", "src\Catalogue\DDDMart.Catalogue.Infrastructure\DDDMart.Catalogue.Infrastructure.csproj", "{575B3A80-214E-4F18-9A80-742F1696F49A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Catalogue.Infrastructure", "src\Catalogue\DDDMart.Catalogue.Infrastructure\DDDMart.Catalogue.Infrastructure.csproj", "{575B3A80-214E-4F18-9A80-742F1696F49A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Infrastructure", "src\DDDMart.Infrastructure\DDDMart.Infrastructure.csproj", "{EF5D5E5B-8341-4E07-8D23-99AD1E0F2C6A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Infrastructure", "src\Common\DDDMart.Infrastructure\DDDMart.Infrastructure.csproj", "{EF5D5E5B-8341-4E07-8D23-99AD1E0F2C6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Ordering.Core", "src\Ordering\DDDMart.Ordering.Core\DDDMart.Ordering.Core.csproj", "{B25FEE20-ADC1-4DD4-B5F3-D6DD08CF87D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Ordering.Core", "src\Ordering\DDDMart.Ordering.Core\DDDMart.Ordering.Core.csproj", "{B25FEE20-ADC1-4DD4-B5F3-D6DD08CF87D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Ordering.Infrastructure", "src\Ordering\DDDMart.Ordering.Infrastructure\DDDMart.Ordering.Infrastructure.csproj", "{9713D119-77BA-4881-B366-AFFD6BC3B05D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Ordering.Infrastructure", "src\Ordering\DDDMart.Ordering.Infrastructure\DDDMart.Ordering.Infrastructure.csproj", "{9713D119-77BA-4881-B366-AFFD6BC3B05D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Payments.Core", "src\Payments\DDDMart.Payments.Core\DDDMart.Payments.Core.csproj", "{A4895600-F5C2-44EC-89A5-E3626B4663DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Payments.Core", "src\Payments\DDDMart.Payments.Core\DDDMart.Payments.Core.csproj", "{A4895600-F5C2-44EC-89A5-E3626B4663DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Payments.Infrastructure", "src\Payments\DDDMart.Payments.Infrastructure\DDDMart.Payments.Infrastructure.csproj", "{AEC7D730-1A9D-46E6-920E-CE0FDEBDD127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Payments.Infrastructure", "src\Payments\DDDMart.Payments.Infrastructure\DDDMart.Payments.Infrastructure.csproj", "{AEC7D730-1A9D-46E6-920E-CE0FDEBDD127}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Application", "src\DDDMart.Application\DDDMart.Application.csproj", "{EAAAFEEA-88AB-45A9-80AF-A2F517908302}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Application", "src\Common\DDDMart.Application\DDDMart.Application.csproj", "{EAAAFEEA-88AB-45A9-80AF-A2F517908302}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Ordering.Application", "src\Ordering\DDDMart.Ordering.Application\DDDMart.Ordering.Application.csproj", "{1E7788E0-1C00-46DB-9A50-073094CA3A74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Ordering.Application", "src\Ordering\DDDMart.Ordering.Application\DDDMart.Ordering.Application.csproj", "{1E7788E0-1C00-46DB-9A50-073094CA3A74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Payments.Application", "src\Payments\DDDMart.Payments.Application\DDDMart.Payments.Application.csproj", "{840CB011-AE76-4B61-8FEE-1AFF39016D0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Payments.Application", "src\Payments\DDDMart.Payments.Application\DDDMart.Payments.Application.csproj", "{840CB011-AE76-4B61-8FEE-1AFF39016D0D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Catalogue.Application", "src\Catalogue\DDDMart.Catalogue.Application\DDDMart.Catalogue.Application.csproj", "{F942217E-05A3-4523-903C-1CBBFE05BE4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Catalogue.Application", "src\Catalogue\DDDMart.Catalogue.Application\DDDMart.Catalogue.Application.csproj", "{F942217E-05A3-4523-903C-1CBBFE05BE4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{18401257-9D59-455F-A60E-FE9DE3068638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{EACB01FE-4E72-43E8-AFE6-98C7B43B5987}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ordering", "Ordering", "{D7588687-C20C-4A47-AD76-5889DBBE9CAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Ordering.Core.Tests", "tests\Ordering\DDDMart.Ordering.Core.Tests\DDDMart.Ordering.Core.Tests.csproj", "{6174060F-8153-44F1-B74D-2DF3F8A293EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -100,6 +108,10 @@ Global
 		{F942217E-05A3-4523-903C-1CBBFE05BE4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F942217E-05A3-4523-903C-1CBBFE05BE4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F942217E-05A3-4523-903C-1CBBFE05BE4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6174060F-8153-44F1-B74D-2DF3F8A293EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6174060F-8153-44F1-B74D-2DF3F8A293EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6174060F-8153-44F1-B74D-2DF3F8A293EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6174060F-8153-44F1-B74D-2DF3F8A293EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,17 +122,20 @@ Global
 		{F3DD0045-4EAA-4F9F-BB1D-2819DC40B544} = {A403C39E-25CD-4FC0-BD2F-E1061674F90B}
 		{E750A5A2-FDAF-4898-B2BF-47B37C78D90D} = {A403C39E-25CD-4FC0-BD2F-E1061674F90B}
 		{4540E389-ACD7-4DFC-A441-B12356FFF719} = {4D23C550-C831-4DA2-AEEA-7DFD431577ED}
-		{E1BA0F62-779E-4F23-8650-E1FD3A65EAB2} = {A403C39E-25CD-4FC0-BD2F-E1061674F90B}
+		{E1BA0F62-779E-4F23-8650-E1FD3A65EAB2} = {18401257-9D59-455F-A60E-FE9DE3068638}
 		{575B3A80-214E-4F18-9A80-742F1696F49A} = {4D23C550-C831-4DA2-AEEA-7DFD431577ED}
-		{EF5D5E5B-8341-4E07-8D23-99AD1E0F2C6A} = {A403C39E-25CD-4FC0-BD2F-E1061674F90B}
+		{EF5D5E5B-8341-4E07-8D23-99AD1E0F2C6A} = {18401257-9D59-455F-A60E-FE9DE3068638}
 		{B25FEE20-ADC1-4DD4-B5F3-D6DD08CF87D2} = {F3DD0045-4EAA-4F9F-BB1D-2819DC40B544}
 		{9713D119-77BA-4881-B366-AFFD6BC3B05D} = {F3DD0045-4EAA-4F9F-BB1D-2819DC40B544}
 		{A4895600-F5C2-44EC-89A5-E3626B4663DC} = {E750A5A2-FDAF-4898-B2BF-47B37C78D90D}
 		{AEC7D730-1A9D-46E6-920E-CE0FDEBDD127} = {E750A5A2-FDAF-4898-B2BF-47B37C78D90D}
-		{EAAAFEEA-88AB-45A9-80AF-A2F517908302} = {A403C39E-25CD-4FC0-BD2F-E1061674F90B}
+		{EAAAFEEA-88AB-45A9-80AF-A2F517908302} = {18401257-9D59-455F-A60E-FE9DE3068638}
 		{1E7788E0-1C00-46DB-9A50-073094CA3A74} = {F3DD0045-4EAA-4F9F-BB1D-2819DC40B544}
 		{840CB011-AE76-4B61-8FEE-1AFF39016D0D} = {E750A5A2-FDAF-4898-B2BF-47B37C78D90D}
 		{F942217E-05A3-4523-903C-1CBBFE05BE4D} = {4D23C550-C831-4DA2-AEEA-7DFD431577ED}
+		{18401257-9D59-455F-A60E-FE9DE3068638} = {A403C39E-25CD-4FC0-BD2F-E1061674F90B}
+		{D7588687-C20C-4A47-AD76-5889DBBE9CAD} = {EACB01FE-4E72-43E8-AFE6-98C7B43B5987}
+		{6174060F-8153-44F1-B74D-2DF3F8A293EB} = {D7588687-C20C-4A47-AD76-5889DBBE9CAD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8B94588-BF39-4AD5-817A-A5E769F78BC9}
