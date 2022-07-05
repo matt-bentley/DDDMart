@@ -1,5 +1,5 @@
 ﻿
-namespace DDDMart.Payments.Core.PaymentMethods.ValueObject
+namespace DDDMart.Payments.Core.PaymentMethods.ValueObjects
 {
     public enum PaymentType
     {

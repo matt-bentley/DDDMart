@@ -3,7 +3,7 @@ using DDDMart.SharedKernel.Guards;
 
 namespace DDDMart.Catalogue.Core.ValueObjects
 {
-    public class ProductInfo : ValueObject<Picture>
+    public class ProductInfo : ValueObject<ProductInfo>
     {
         private ProductInfo(string name, string description)
         {
@@ -26,7 +26,7 @@ namespace DDDMart.Catalogue.Core.ValueObjects
             return HashCode.Combine(Name);
         }
 
-        protected override bool ValueEquals(Picture other)
+        protected override bool ValueEquals(ProductInfo other)
         {
             return Name.Equals(other.Name);
         }

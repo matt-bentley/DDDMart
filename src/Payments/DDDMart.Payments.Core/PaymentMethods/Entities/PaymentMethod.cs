@@ -1,5 +1,4 @@
-﻿using DDDMart.Payments.Core.PaymentMethods.ValueObject;
-using DDDMart.Payments.Core.PaymentMethods.ValueObjects;
+﻿using DDDMart.Payments.Core.PaymentMethods.ValueObjects;
 using DDDMart.SharedKernel;
 
 namespace DDDMart.Payments.Core.PaymentMethods.Entities
