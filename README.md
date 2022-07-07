@@ -2,6 +2,10 @@
 
 This is a small sample application for a fake eCommerce company (**DDDMart**) which uses ***Domain Driven Design*** techniques for modelling the domain.
 
+The application focuses on the core Domain layer so does not have any APIs. There are a lot of different opinionated ways to host domain models through an API and I specifically wanted to focus on modelling the domain and how Domain and Integration events are handled.
+
+The **DDDMart** console application hosts a number of background services which are used to simulate how an **Order** is generated and paid using the different ***bounded contexts***.
+
 ## Sub-Domains
 
 The domain is made up of 3 sub-domains:
