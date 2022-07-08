@@ -14,7 +14,7 @@ namespace DDDMart.SharedKernel
 
         }
 
-        public Guid Id { get; private set; }
+        public Guid Id { get; protected set; }
         public DateTime CreatedDate { get; private set; }
 
         public override bool Equals(object obj) => this.Equals(obj as Entity);

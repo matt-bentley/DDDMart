@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -17,7 +17,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\src\Catalogue\DDDMart.Catalogue.Core\DDDMart.Catalogue.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Ordering\DDDMart.Ordering.Core\DDDMart.Ordering.Core.csproj" />
+    <ProjectReference Include="..\..\..\src\Payments\DDDMart.Payments.Application\DDDMart.Payments.Application.csproj" />
   </ItemGroup>
 
 </Project>

@@ -10,7 +10,7 @@ using DDDMart.Ordering.Core.Orders.Repositories;
 using DDDMart.Payments.Core.Invoices.Repositories;
 using DDDMart.Payments.Core.PaymentMethods.Entities;
 using DDDMart.Payments.Core.PaymentMethods.Repositories;
-using DDDMart.Payments.Core.PaymentMethods.ValueObject;
+using DDDMart.Payments.Core.PaymentMethods.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;

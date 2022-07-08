@@ -16,9 +16,16 @@ using DDDMart.Payments.Infrastructure.AutofacModules;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Serilog;
 
 var host = Host.CreateDefaultBuilder()
                .UseServiceProviderFactory(new AutofacServiceProviderFactory())
+               .UseSerilog((hostContext, loggingBuilder) =>
+               {
+                   loggingBuilder.MinimumLevel.Information()
+                       .Enrich.FromLogContext()
+                       .WriteTo.Console();
+               })
                .ConfigureServices(services =>
                {
                    services.AddMediatR(typeof(Product).Assembly);

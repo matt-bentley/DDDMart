@@ -6,7 +6,7 @@ using DDDMart.Ordering.Core.Orders.Repositories;
 using DDDMart.Ordering.Core.Tests.Builders;
 using Microsoft.Extensions.Logging;
 
-namespace DDDMart.Ordering.Core.Tests.DomainEventHandlers
+namespace DDDMart.Ordering.Core.Tests.Orders.DomainEventHandlers
 {
     [TestClass]
     public class BasketCheckedOutDomainEventHandlerTests
