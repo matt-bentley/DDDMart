@@ -1,7 +1,7 @@
 ﻿
 namespace DDDMart.SharedKernel
 {
-    public class AggregateRoot : Entity
+    public abstract class AggregateRoot : Entity
     {
         protected AggregateRoot(Guid id) : base(id)
         {
