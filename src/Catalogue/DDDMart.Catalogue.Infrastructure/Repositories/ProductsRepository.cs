@@ -1,5 +1,5 @@
-﻿using DDDMart.Catalogue.Core.Entities;
-using DDDMart.Catalogue.Core.Repositories;
+﻿using DDDMart.Catalogue.Core.Products.Entities;
+using DDDMart.Catalogue.Core.Products.Repositories;
 using DDDMart.Infrastructure.Repositories;
 
 namespace DDDMart.Catalogue.Infrastructure.Repositories

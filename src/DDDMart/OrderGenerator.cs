@@ -1,6 +1,6 @@
-﻿using DDDMart.Catalogue.Core.Entities;
-using DDDMart.Catalogue.Core.Repositories;
-using DDDMart.Catalogue.Core.ValueObjects;
+﻿using DDDMart.Catalogue.Core.Products.Entities;
+using DDDMart.Catalogue.Core.Products.Repositories;
+using DDDMart.Catalogue.Core.Products.ValueObjects;
 using DDDMart.Ordering.Core.Baskets.Entities;
 using DDDMart.Ordering.Core.Baskets.Repositories;
 using DDDMart.Ordering.Core.Common.ValueObjects;

@@ -1,7 +1,7 @@
 ﻿using DDDMart.SharedKernel;
 using DDDMart.SharedKernel.Guards;
 
-namespace DDDMart.Catalogue.Core.ValueObjects
+namespace DDDMart.Catalogue.Core.Products.ValueObjects
 {
     public class Picture : ValueObject<Picture>
     {

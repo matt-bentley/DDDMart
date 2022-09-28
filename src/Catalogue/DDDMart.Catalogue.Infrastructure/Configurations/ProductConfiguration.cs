@@ -1,4 +1,4 @@
-﻿using DDDMart.Catalogue.Core.Entities;
+﻿using DDDMart.Catalogue.Core.Products.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

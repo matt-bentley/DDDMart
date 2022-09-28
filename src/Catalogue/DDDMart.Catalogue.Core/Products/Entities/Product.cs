@@ -1,8 +1,8 @@
-﻿using DDDMart.Catalogue.Core.ValueObjects;
+﻿using DDDMart.Catalogue.Core.Products.ValueObjects;
 using DDDMart.SharedKernel;
 using DDDMart.SharedKernel.Guards;
 
-namespace DDDMart.Catalogue.Core.Entities
+namespace DDDMart.Catalogue.Core.Products.Entities
 {
     public class Product : AggregateRoot
     {

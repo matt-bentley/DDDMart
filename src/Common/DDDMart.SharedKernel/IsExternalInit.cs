@@ -8,7 +8,7 @@ namespace System.Runtime.CompilerServices
     /// This is used to allow the use of records in C# 9.0
     /// </summary>
     [EditorBrowsable(EditorBrowsableState.Never)]
-    internal static class IsExternalInit
+    public static class IsExternalInit
     {
     }
 }

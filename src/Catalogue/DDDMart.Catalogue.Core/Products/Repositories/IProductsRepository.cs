@@ -1,7 +1,7 @@
-﻿using DDDMart.Catalogue.Core.Entities;
+﻿using DDDMart.Catalogue.Core.Products.Entities;
 using DDDMart.SharedKernel;
 
-namespace DDDMart.Catalogue.Core.Repositories
+namespace DDDMart.Catalogue.Core.Products.Repositories
 {
     public interface IProductsRepository : IRepository<Product>
     {

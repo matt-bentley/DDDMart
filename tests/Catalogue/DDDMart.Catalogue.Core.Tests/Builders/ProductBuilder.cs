@@ -1,5 +1,5 @@
-﻿using DDDMart.Catalogue.Core.Entities;
-using DDDMart.Catalogue.Core.ValueObjects;
+﻿using DDDMart.Catalogue.Core.Products.Entities;
+using DDDMart.Catalogue.Core.Products.ValueObjects;
 using System.Reflection;
 
 namespace DDDMart.Catalogue.Core.Tests.Builders

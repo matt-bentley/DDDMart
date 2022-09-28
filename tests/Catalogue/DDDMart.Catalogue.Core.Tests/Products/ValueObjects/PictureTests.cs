@@ -1,4 +1,4 @@
-﻿using DDDMart.Catalogue.Core.ValueObjects;
+﻿using DDDMart.Catalogue.Core.Products.ValueObjects;
 using DDDMart.SharedKernel.Exceptions;
 
 namespace DDDMart.Catalogue.Core.Tests.ValueObjects

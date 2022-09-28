@@ -1,5 +1,5 @@
 ﻿using DDDMart.Catalogue.Core;
-using DDDMart.Catalogue.Core.Entities;
+using DDDMart.Catalogue.Core.Products.Entities;
 using DDDMart.Catalogue.Infrastructure.Configurations;
 using DDDMart.Infrastructure;
 using MediatR;

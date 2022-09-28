@@ -56,11 +56,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Catalogue.Core.Test
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Payments", "Payments", "{7AB75DD6-8CFA-4261-A6D0-008CDB19F056}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Payments.Core.Tests", "tests\Payments\DDDMart.Payments.Core.Tests\DDDMart.Payments.Core.Tests.csproj", "{4D25A5FA-CC53-49E6-A338-CDE74E19617B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Payments.Core.Tests", "tests\Payments\DDDMart.Payments.Core.Tests\DDDMart.Payments.Core.Tests.csproj", "{4D25A5FA-CC53-49E6-A338-CDE74E19617B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Payments.Application.Tests", "tests\Payments\DDDMart.Payments.Application.Tests\DDDMart.Payments.Application.Tests.csproj", "{6FDA72CD-5745-4DC4-BC00-5F9F99B5D3BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Payments.Application.Tests", "tests\Payments\DDDMart.Payments.Application.Tests\DDDMart.Payments.Application.Tests.csproj", "{6FDA72CD-5745-4DC4-BC00-5F9F99B5D3BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Ordering.Infrastructure.Tests", "tests\Ordering\DDDMart.Ordering.Infrastructure.Tests\DDDMart.Ordering.Infrastructure.Tests.csproj", "{B4B22637-285F-4AD6-9320-CD934BD260D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDMart.Ordering.Infrastructure.Tests", "tests\Ordering\DDDMart.Ordering.Infrastructure.Tests\DDDMart.Ordering.Infrastructure.Tests.csproj", "{B4B22637-285F-4AD6-9320-CD934BD260D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDDMart.Core.Tests", "tests\DDDMart.Core.Tests\DDDMart.Core.Tests.csproj", "{343C6BE3-EAE7-4F24-B894-F11ADF22BB61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -140,6 +142,10 @@ Global
 		{B4B22637-285F-4AD6-9320-CD934BD260D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4B22637-285F-4AD6-9320-CD934BD260D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4B22637-285F-4AD6-9320-CD934BD260D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343C6BE3-EAE7-4F24-B894-F11ADF22BB61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343C6BE3-EAE7-4F24-B894-F11ADF22BB61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343C6BE3-EAE7-4F24-B894-F11ADF22BB61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343C6BE3-EAE7-4F24-B894-F11ADF22BB61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -170,6 +176,7 @@ Global
 		{4D25A5FA-CC53-49E6-A338-CDE74E19617B} = {7AB75DD6-8CFA-4261-A6D0-008CDB19F056}
 		{6FDA72CD-5745-4DC4-BC00-5F9F99B5D3BC} = {7AB75DD6-8CFA-4261-A6D0-008CDB19F056}
 		{B4B22637-285F-4AD6-9320-CD934BD260D4} = {D7588687-C20C-4A47-AD76-5889DBBE9CAD}
+		{343C6BE3-EAE7-4F24-B894-F11ADF22BB61} = {EACB01FE-4E72-43E8-AFE6-98C7B43B5987}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8B94588-BF39-4AD5-817A-A5E769F78BC9}

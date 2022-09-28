@@ -3,7 +3,7 @@ using Autofac.Extensions.DependencyInjection;
 using DDDMart;
 using DDDMart.Application.AutofacModules;
 using DDDMart.Catalogue.Application.AutofacModules;
-using DDDMart.Catalogue.Core.Entities;
+using DDDMart.Catalogue.Core.Products.Entities;
 using DDDMart.Catalogue.Infrastructure;
 using DDDMart.Catalogue.Infrastructure.AutofacModules;
 using DDDMart.Ordering.Application.AutofacModules;
