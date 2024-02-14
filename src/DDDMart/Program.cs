@@ -13,7 +13,6 @@ using DDDMart.Ordering.Infrastructure.AutofacModules;
 using DDDMart.Payments.Application.AutofacModules;
 using DDDMart.Payments.Infrastructure;
 using DDDMart.Payments.Infrastructure.AutofacModules;
-using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
@@ -28,7 +27,10 @@ var host = Host.CreateDefaultBuilder()
                })
                .ConfigureServices(services =>
                {
-                   services.AddMediatR(typeof(Product).Assembly);
+                   services.AddMediatR(configuration =>
+                   {
+                       configuration.RegisterServicesFromAssembly(typeof(Product).Assembly);
+                   });
                    services.AddHostedService<OrderGenerator>();
                    services.AddHostedService<IntegrationEventsService>();
                    services.AddHostedService<IntegrationEventPublisher<OrderingContext>>();
